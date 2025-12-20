@@ -101,3 +101,9 @@ schedule function ghostcraft:meta/grace/message_15 15s
 
 # Create storage
 data merge storage ghostcraft:data {stab_queue:[],vampire_queue:[],dimension:"ghostcraft:empty"}
+
+
+
+return 0
+
+scoreboard objectives add player_motion.api.launch dummy

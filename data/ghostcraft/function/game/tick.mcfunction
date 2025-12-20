@@ -7,6 +7,8 @@
 #
 
 
+execute unless score set_up ghostcraft.master matches 1 run return 0
+
 scoreboard players enable @a ghostcraft.trigger.game
 scoreboard players enable @a ghostcraft.trigger.class
 

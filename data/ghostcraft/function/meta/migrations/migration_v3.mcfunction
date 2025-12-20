@@ -14,5 +14,5 @@ execute unless score version ghostcraft.master matches 3.. run function ghostcra
 scoreboard players set version ghostcraft.master 4
 
 
-gamerule commandModificationBlockLimit 9000000
+gamerule max_block_modifications 9000000
 
