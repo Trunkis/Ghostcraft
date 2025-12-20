@@ -6,14 +6,10 @@
         "item": {
           "items": "cookie",
           "components": {
-            "custom_model_data": {
-              "strings": [
-                "teleport_crystal"
-              ]
+            "item_model": "end_crystal"
             }
           }
         }
-      }
     }
   },
   "rewards": {

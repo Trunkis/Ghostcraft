@@ -29,11 +29,7 @@
                   "italic": false,
                   "strikethrough": false
                 },
-                "custom_model_data": {
-                  "strings": [
-                    "teleport_crystal"
-                  ]
-                },
+                "item_model": "end_crystal",
                 "lore": [
                   [
                     {

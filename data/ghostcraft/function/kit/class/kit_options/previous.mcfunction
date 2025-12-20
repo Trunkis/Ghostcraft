@@ -6,15 +6,12 @@
 #   Input: None
 #
 
+function ghostcraft:item/get_data
+data modify storage ghostcraft:data temp set from storage ghostcraft:data temp."minecraft:custom_data".ghostcraft.kit_options
 
-summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,ShowArms:1b,Tags:["ghostcraft.kit.class.kit_options.get.temp"]}
-
-item replace entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] weapon.mainhand from entity @s weapon.mainhand
-
-# Cycle class option here
-data modify entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."custom_data".ghostcraft.kit_options prepend from entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."custom_data".ghostcraft.kit_options[-1]
-data remove entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."custom_data".ghostcraft.kit_options[-1]
-
-item replace entity @s weapon.mainhand from entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] weapon.mainhand
-
-kill @e[tag=ghostcraft.kit.class.kit_options.get.temp]
+#Prepend kit option
+data modify storage ghostcraft:data temp prepend from storage ghostcraft:data temp[-1]
+#Remove kit option
+data remove storage ghostcraft:data temp[-1]
+#Save to item
+item modify entity @s weapon.mainhand ghostcraft:game/lobby/kit_data

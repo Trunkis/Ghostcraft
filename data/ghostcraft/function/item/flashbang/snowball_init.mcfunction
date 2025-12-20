@@ -8,10 +8,10 @@ tag @s add ghostcraft.item.timer_cycle
 tag @s add ghostcraft.item.motion_sync
 
 summon item ~ ~ ~ {Item:{id:"snowball",count:1},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.game.ghosthunt.item_ownership.compliance", "ghostcraft.game.ghosthunt.item_ownership.excepted", "ghostcraft.item.flashbang", "ghostcraft.item.ride_trigger", "ghostcraft.item.timer_receive", "ghostcraft.item.motion_receive", "ghostcraft.item.uuid"]}
-execute store result entity @e[tag=ghostcraft.new,limit=1] Item.components."custom_data".ghostcraft.unstackable_id int 1 run scoreboard players get next_id ghostcraft.ride_id
+execute store result entity @e[tag=ghostcraft.new,limit=1] Item.components."minecraft:custom_data".ghostcraft.unstackable_id int 1 run scoreboard players get next_id ghostcraft.ride_id
 ride @e[tag=ghostcraft.new,limit=1] mount @s
 
-data modify entity @e[tag=ghostcraft.new,limit=1] Item.components."custom_data".ghostcraft.thrower_uuid set from entity @p[tag=ghostcraft.advtrigger.snowball.thrower] UUID[0]
+data modify entity @e[tag=ghostcraft.new,limit=1] Item.components."minecraft:custom_data".ghostcraft.thrower_uuid set from entity @p[tag=ghostcraft.advtrigger.snowball.thrower] UUID[0]
 
 scoreboard players operation @s ghostcraft.ride_id = next_id ghostcraft.ride_id
 scoreboard players operation @e[tag=ghostcraft.new,limit=1] ghostcraft.ride_id = next_id ghostcraft.ride_id

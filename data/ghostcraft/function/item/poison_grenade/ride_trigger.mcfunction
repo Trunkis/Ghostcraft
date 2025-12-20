@@ -4,7 +4,7 @@ tag @s add ghostcraft.item.timer
 
 execute at @s run tp ~ ~0.1 ~
 
-data modify entity @s Item.components."custom_data".ghostcraft.type set value "poison_grenade"
+data modify entity @s Item.components."minecraft:custom_data".ghostcraft.type set value "poison_grenade"
 data modify entity @s Item.components."custom_model_data".strings set value ["ghost_poison_grenade"]
 
 execute store result entity @s Motion[0] double 0.0006 run scoreboard players get @s ghostcraft.motion.x
