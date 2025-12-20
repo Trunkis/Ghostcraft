@@ -41,19 +41,7 @@
 </style>
 </details>
 
-# V2.1
+# V2.2
 
-$\color{Green}{\textsf{+}}$ Buffs the Hunter<br/>
-&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ 6 Armor points<br/>
-&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ 8 Flares<br/>
-&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ 5 Trap uses<br/>
-&nbsp;&nbsp; $\color{Green}{\textsf{+}}$ Support has 4 Flare Crates<br/>
+_Compatible with 1.21.11_
 
-$\color{Yellow}{\textsf{∼}}$ Fixes Ghosts taking suffocation damage
-
-$\color{Yellow}{\textsf{∼}}$ Removes Crafting Tables from the Warehouse map
-
-$\color{Yellow}{\textsf{∼}}$ Hides Ghost's Survivor Compass being visible to other players
-
-$\color{Red}{\textsf{⎯}}$ Nerfs the ShotBow<br/>
-&nbsp;&nbsp; $\color{Red}{\textsf{⎯}}$ 2 Armor points<br/>

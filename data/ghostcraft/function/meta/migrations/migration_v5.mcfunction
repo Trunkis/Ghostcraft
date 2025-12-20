@@ -71,3 +71,4 @@ team modify ghostcraft.game.ghosthunt.ghost suffix {"text":" 👻","color":"red"
 
 
 gamerule show_death_messages true
+

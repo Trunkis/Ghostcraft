@@ -27,10 +27,10 @@ gamerule entity_drops false
 gamerule immediate_respawn true
 gamerule mob_drops false
 gamerule spawn_mobs false
-gamerule elytra_movement_check false
+gamerule elytra_movement_check true
 gamerule raids false
 gamerule advance_time false
-gamerule fire_spread_radius_around_player 0
+gamerule fire_spread_radius_around_player -1
 gamerule spread_vines false
 gamerule block_drops false
 gamerule advance_weather false
