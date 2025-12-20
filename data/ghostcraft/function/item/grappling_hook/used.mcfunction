@@ -12,7 +12,6 @@ scoreboard players reset @s ghostcraft.item.grappling_hook.used
 
 data modify storage ghostcraft:data bobber_data set value {"type":"grappling_hook"}
 execute if items entity @s weapon.mainhand *[custom_data~{ghostcraft:{bobber_data:{}}}] run item modify entity @s weapon.mainhand ghostcraft:item/grappling_hook/clear_bobber_data
-#execute if data entity @s SelectedItem.components."minecraft:custom_data".ghostcraft.bobber_data run item modify entity @s weapon.mainhand ghostcraft:item/grappling_hook/clear_bobber_data
 
 execute unless predicate ghostcraft:item/grappling_hook/holding run return 0
 

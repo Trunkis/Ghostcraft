@@ -1,7 +1,7 @@
 
 advancement revoke @s only ghostcraft:kit/ghost/suffocation_immunity/suffocation_damage
 
-execute unless data entity @s equipment.feet.components."enchantments"{"ghostcraft:kit/ghost/suffocation_immunity":1} run return 0
+execute unless items entity @s armor.* *[enchantments~[{"enchantments":"ghostcraft:kit/ghost/suffocation_immunity"}]] run return 0
 
 # Add to the suffocation immunity regen countdown
 scoreboard players add next_id ghostcraft.kit.ghost.suffocation_immunity 1

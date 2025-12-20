@@ -6,4 +6,4 @@ particle dust{color:[0.831,0.274,0.925],scale:1} ~ ~ ~ 0 1 0 0 30 force
 
 execute at @s as @a if score @s ghostcraft.uuid = item.blink.ride_trigger.thrower_uuid ghostcraft.temp run tp ~ ~ ~
 
-kill @s
+kill
