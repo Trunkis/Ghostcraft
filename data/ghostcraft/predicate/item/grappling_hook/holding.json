@@ -1,12 +1,12 @@
 {
-  "condition": "minecraft:entity_properties",
+  "condition": "entity_properties",
   "entity": "this",
   "predicate": {
     "equipment": {
       "mainhand": {
-        "items": "minecraft:fishing_rod",
+        "items": "fishing_rod",
           "components": {
-            "minecraft:custom_data": "{ghostcraft:{type:\"grappling_hook\"}}"
+            "custom_data": "{ghostcraft:{type:\"grappling_hook\"}}"
         }
       }
     }

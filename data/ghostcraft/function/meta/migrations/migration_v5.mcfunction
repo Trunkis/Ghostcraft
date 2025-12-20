@@ -70,5 +70,4 @@ team modify ghostcraft.game.ghosthunt.ghost prefix {"text":"👻 ","color":"red"
 team modify ghostcraft.game.ghosthunt.ghost suffix {"text":" 👻","color":"red"}
 
 
-gamerule showDeathMessages true
-
+gamerule show_death_messages true

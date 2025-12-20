@@ -8,7 +8,7 @@ tag @s remove ghostcraft.ability.ghost_compass
 tag @s remove ghostcraft.ability.cling
 
 # Remove effects
-effect clear @s minecraft:invisibility
+effect clear @s invisibility
 
 # Remove immunities
 tag @s remove ghostcraft.item.flashbang.immune

@@ -4,32 +4,32 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gunpowder",
+          "type": "item",
+          "name": "gunpowder",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_name": {
+                "custom_name": {
                   "text": "Invisibility Dust",
                   "color": "#F6F6F6",
                   "bold": false,
                   "italic": false
                 },
-                "minecraft:consumable": {
+                "consumable": {
                   "consume_seconds": 1,
                   "animation": "eat",
                   "sound": {
-                    "sound_id": "minecraft:block.big_dripleaf.tilt_up",
+                    "sound_id": "block.big_dripleaf.tilt_up",
                     "range": 32
                   },
                   "has_consume_particles": true,
                   "on_consume_effects": [
                     {
-                      "type": "minecraft:apply_effects",
+                      "type": "apply_effects",
                       "effects": [
                         {
-                          "id": "minecraft:invisibility",
+                          "id": "invisibility",
                           "amplifier": 0,
                           "duration": 200,
                           "ambient": true,
@@ -39,20 +39,20 @@
                       ]
                     },
                     {
-                      "type": "minecraft:play_sound",
+                      "type": "play_sound",
                       "sound": {
-                        "sound_id": "minecraft:block.bubble_column.whirlpool_inside",
+                        "sound_id": "block.bubble_column.whirlpool_inside",
                         "range": 32
                       }
                     }
                   ]
                 },
-                "minecraft:food": {
+                "food": {
                   "nutrition": 0,
                   "saturation": 0,
                   "can_always_eat": true
                 },
-                "minecraft:lore": [
+                "lore": [
                   {
                     "text": "Consume to become temporarily invisible!",
                     "color": "gray"

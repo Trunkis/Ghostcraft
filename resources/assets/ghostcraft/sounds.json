@@ -1,0 +1,142 @@
+{
+    "explosion": {
+         "sounds":[
+            {
+                "name": "ghostcraft:explode1",
+                "weight": 1
+            },
+            {
+                "name": "ghostcraft:explode2",
+                "weight": 1
+            },
+            {
+                "name": "ghostcraft:explode3",
+                "weight": 1
+            },
+            {
+                "name": "ghostcraft:explode4",
+                "weight": 1
+            }
+         ]
+    },
+    "stab_start": {
+         "sounds":[
+            {
+                "name": "ghostcraft:stab_start",
+                "weight": 1
+            }
+         ]
+    },
+    "stab_finish": {
+        "sounds":[
+           {
+               "name": "ghostcraft:stab_finish",
+               "weight": 1
+           }
+        ]
+   },
+   "hit_launchable": {
+       "sounds":[
+          {
+              "name": "ghostcraft:hit_launchable",
+              "weight": 1
+          }
+       ]
+  },
+  "ghost_hurt": {
+      "sounds":[
+         {
+             "name": "ghostcraft:ghost_hurt",
+             "weight": 1
+         }
+      ]
+ },
+ "survivors_win": {
+     "sounds":[
+        {
+            "name": "ghostcraft:survivors_win",
+            "weight": 1
+        }
+     ]
+},
+"ghosts_win": {
+    "sounds":[
+       {
+           "name": "ghostcraft:ghosts_win",
+           "weight": 1
+       }
+    ]
+},
+  "game_start": {
+      "sounds":[
+        {
+            "name": "ghostcraft:caves/cave_0",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_1",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_2",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_3",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_4",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_5",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_6",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_7",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_8",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_10",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_11",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_12",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_13",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_14",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_15",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_16",
+            "weight": 1
+        },
+        {
+            "name": "ghostcraft:caves/cave_17",
+            "weight": 1
+        }
+      ]
+ }
+}

@@ -1,5 +1,5 @@
 {
-  "function": "minecraft:set_written_book_pages",
+  "function": "set_written_book_pages",
   "pages": [
     {"raw":[{"text":"         Blackout                                     This is a classic map from the original 2013 GhostCraft.                                           It is based on the Halo 3 map with the same name!                                                                                                                 "},{"text":"[Vote]","color":"green","hover_event":{"action":"show_text","value": "Click to vote!"},"click_event":{"action": "run_command","command": "/trigger ghostcraft.game.map_change.vote set 1"}}]}
   ],

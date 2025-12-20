@@ -15,7 +15,7 @@ loot give @s loot ghostcraft:ghost/blink
 loot give @s loot ghostcraft:ghost/teleport_crystal
 
 # Armor items
-item replace entity @s armor.feet with minecraft:netherite_boots\
+item replace entity @s armor.feet with netherite_boots\
 [\
     unbreakable={},\
     tooltip_display={"hidden_components":["enchantments", "attribute_modifiers"]},\
@@ -23,9 +23,9 @@ item replace entity @s armor.feet with minecraft:netherite_boots\
     enchantments={"binding_curse":1,"vanishing_curse":1,projectile_protection:7,"ghostcraft:ability/pounce/pounce":1,"ghostcraft:kit/ghost/suffocation_immunity":1},\
     attribute_modifiers=\
     [\
-        {type:"minecraft:armor",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},\
-        {type:"minecraft:armor_toughness",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},\
-        {type:"minecraft:knockback_resistance",amount:-0,id:"ghostcraft.kit.ghost.feet",operation:add_value}\
+        {type:"armor",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},\
+        {type:"armor_toughness",amount:0,id:"ghostcraft.kit.ghost.feet",operation:add_value},\
+        {type:"knockback_resistance",amount:-0,id:"ghostcraft.kit.ghost.feet",operation:add_value}\
     ]]
 
 # Add abilities
@@ -37,8 +37,8 @@ tag @s add ghostcraft.ability.ghost_compass
 tag @s add ghostcraft.ability.cling
 
 # Add effects
-effect give @s minecraft:invisibility infinite 0 true
-effect give @s minecraft:resistance infinite 0 true
+effect give @s invisibility infinite 0 true
+effect give @s resistance infinite 0 true
 
 # Add immunities
 tag @s add ghostcraft.item.flashbang.immune

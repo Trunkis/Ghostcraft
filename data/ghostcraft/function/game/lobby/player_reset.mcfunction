@@ -7,7 +7,7 @@
 #
 
 
-attribute @s minecraft:attack_damage modifier remove ghostcraft.game.lobby.player
+attribute @s attack_damage modifier remove ghostcraft.game.lobby.player
 
 function ghostcraft:ability/feather_falling/revoke
 

@@ -4,11 +4,11 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
+          "type": "loot_table",
           "value": "ghostcraft:item/essence_of_wind/essence_of_wind",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": 2
             }
           ]

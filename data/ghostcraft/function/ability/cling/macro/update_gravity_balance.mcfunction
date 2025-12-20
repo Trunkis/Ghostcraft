@@ -7,7 +7,7 @@
 #
 
 
-attribute @s minecraft:gravity modifier remove ghostcraft.ability.cling.balance
+attribute @s gravity modifier remove ghostcraft.ability.cling.balance
 # $say $(gravity)
-$attribute @s minecraft:gravity modifier add ghostcraft.ability.cling.balance $(gravity) add_value
+$attribute @s gravity modifier add ghostcraft.ability.cling.balance $(gravity) add_value
 

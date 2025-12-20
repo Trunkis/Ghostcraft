@@ -1,10 +1,10 @@
 {
   "criteria": {
     "ghostcraft.kit.class.open_kit_menu": {
-      "trigger": "minecraft:using_item",
+      "trigger": "using_item",
       "conditions": {
         "item": {
-          "items": "minecraft:stick"
+          "items": "stick"
         }
       }
     }

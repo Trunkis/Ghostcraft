@@ -7,6 +7,6 @@
 #
 
 
-#say $execute store result score game.ghosthunt.rng ghostcraft.temp run random roll 0..$(rng)
-$execute store result score game.ghosthunt.rng ghostcraft.temp run random roll 0..$(rng)
+#say $execute store result score game.ghosthunt.rng ghostcraft.temp run random value 0..$(rng)
+$execute store result score game.ghosthunt.rng ghostcraft.temp run random value 0..$(rng)
 

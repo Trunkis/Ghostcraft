@@ -4,14 +4,14 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:arrow",
+          "type": "item",
+          "name": "arrow",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_name": {"text":"Machine Bow Arrows","italic":false,"color":"dark_blue"},
-                "minecraft:lore":[{"text":"Arrows specifically for the Machine Bow","color":"white"}],
+                "custom_name": {"text":"Machine Bow Arrows","italic":false,"color":"dark_blue"},
+                "lore":[{"text":"Arrows specifically for the Machine Bow","color":"white"}],
                 "custom_model_data": {
                   "strings": [
                     "machine_bow_arrow"

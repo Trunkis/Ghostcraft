@@ -4,15 +4,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
+          "type": "item",
+          "name": "splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:score",
+                "type": "score",
                 "target": {
-                  "type": "minecraft:fixed",
+                  "type": "fixed",
                   "name": "kit.support.potion.count"
                 },
                 "score": "ghostcraft.config"
@@ -20,7 +20,7 @@
             },
             {
               "function": "set_potion",
-              "id": "minecraft:strong_healing"
+              "id": "strong_healing"
             }
           ]
         }

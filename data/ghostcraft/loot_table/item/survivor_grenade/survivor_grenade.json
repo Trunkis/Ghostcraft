@@ -4,18 +4,18 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "type": "item",
+          "name": "snowball",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_data": "{ghostcraft:{type:\"survivor_grenade\"}}",
-                "minecraft:custom_model_data": {
+                "custom_data": "{ghostcraft:{type:\"survivor_grenade\"}}",
+                "custom_model_data": {
                   "strings": ["survivor_survivor_grenade"]
                 },
-                "minecraft:custom_name": {"text":"Grenade","italic":false,"color":"white"},
-                "minecraft:use_cooldown": {
+                "custom_name": {"text":"Grenade","italic":false,"color":"white"},
+                "use_cooldown": {
                   "seconds": 2,
                   "cooldown_group": "ghostcraft:grenade"
                 }

@@ -4,28 +4,26 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "type": "item",
+          "name": "carrot_on_a_stick",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
                 "enchantment_glint_override": false,
-                "minecraft:custom_data": "{ghostcraft:{type:\"ghost_boost\"}}",
-                "minecraft:custom_model_data": {
-                  "strings": ["ghost_boost"]
-                },
+                "custom_data": "{ghostcraft:{type:\"ghost_boost\"}}",
+                "item_model": "wooden_sword",
                 "enchantments": {
                   "ghostcraft:ability/ghost_block/block_launch": 1
                 },
                 "custom_name": [{"text":"Wooden Sword","italic":false}],
-                "minecraft:lore": [[{"text":"Right click to boost","italic":false,"color":"gray"}]],
+                "lore": [[{"text":"Right click to boost","italic":false,"color":"gray"}]],
                 "attribute_modifiers": [
                   {
                     "id": "ghostcraft.ghost.boost",
                     "amount": 2,
                     "slot": "mainhand",
-                    "type": "minecraft:attack_damage",
+                    "type": "attack_damage",
                     "operation": "add_value"
                   }
                 ]

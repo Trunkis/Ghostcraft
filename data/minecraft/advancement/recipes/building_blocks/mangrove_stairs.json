@@ -1,7 +1,0 @@
-{
-  "criteria": {
-    "ghostcraft.disable_advancements": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}

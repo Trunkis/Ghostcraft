@@ -1,7 +1,7 @@
 {
-  "function": "minecraft:copy_custom_data",
+  "function": "copy_custom_data",
   "source": {
-    "type": "minecraft:storage",
+    "type": "storage",
     "source": "ghostcraft:data"
   },
   "ops": [

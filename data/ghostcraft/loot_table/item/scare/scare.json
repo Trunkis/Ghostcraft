@@ -4,17 +4,17 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "type": "item",
+          "name": "snowball",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_name": {"text":"Scare","italic":false,"color":"gold"},
-                "minecraft:lore":[[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Plays a scary noise where it lands","italic":false,"color":"gray"}],[{"text":"Is not affected by gravity","italic":false,"color":"gray"}]],
-                "minecraft:custom_data": "{ghostcraft:{type:\"scare\"}}",
-                "minecraft:custom_model_data": {"strings": ["ghost_scare"]},
-                "minecraft:use_cooldown": {"seconds": 3,"cooldown_group": "ghostcraft:ghost/scare"}
+                "custom_name": {"text":"Scare","italic":false,"color":"gold"},
+                "lore":[[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Plays a scary noise where it lands","italic":false,"color":"gray"}],[{"text":"Is not affected by gravity","italic":false,"color":"gray"}]],
+                "custom_data": "{ghostcraft:{type:\"scare\"}}",
+                "custom_model_data": {"strings": ["ghost_scare"]},
+                "use_cooldown": {"seconds": 3,"cooldown_group": "ghostcraft:ghost/scare"}
               }
             }
           ]

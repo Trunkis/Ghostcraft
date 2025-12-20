@@ -1,15 +1,15 @@
 {
     "values": [
-        "minecraft:arrow",
-        "minecraft:spectral_arrow",
-        "minecraft:wind_charge",
-        "minecraft:splash_potion",
-        "minecraft:lingering_potion",
-        "minecraft:dragon_fireball",
-        "minecraft:fireball",
-        "minecraft:firework_rocket",
-        "minecraft:small_fireball",
-        "minecraft:end_crystal",
-        "minecraft:evoker_fangs"
+        "arrow",
+        "spectral_arrow",
+        "wind_charge",
+        "splash_potion",
+        "lingering_potion",
+        "dragon_fireball",
+        "fireball",
+        "firework_rocket",
+        "small_fireball",
+        "end_crystal",
+        "evoker_fangs"
     ]
 }

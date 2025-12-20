@@ -1,5 +1,5 @@
 {
-  "function": "minecraft:set_written_book_pages",
+  "function": "set_written_book_pages",
   "pages": [
     {"raw":[{"text":"       Warehouse                                     This is a classic map from the original 2013 GhostCraft.                                           It was created by GuardianGnome according to a sign on one of the trucks.                                                                          "},{"text":"[Vote]","color":"green","hover_event":{"action":"show_text","value": "Click to vote!"},"click_event":{"action": "run_command","command": "/trigger ghostcraft.game.map_change.vote set 10"}}]}
   ],

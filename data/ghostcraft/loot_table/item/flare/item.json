@@ -4,19 +4,19 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "type": "item",
+          "name": "snowball",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:lore": [[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Lights up the ghost","italic":false,"color":"gray"}],[{"text":"Lasts longer when landing near the ghost","italic":false,"color":"gray"}]],
-                "minecraft:custom_data": "{ghostcraft:{type:\"flare\"}}",
-                "minecraft:custom_name": {"text":"Flare","italic":false,"color":"gold"},
-                "minecraft:custom_model_data": {
+                "lore": [[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Lights up the ghost","italic":false,"color":"gray"}],[{"text":"Lasts longer when landing near the ghost","italic":false,"color":"gray"}]],
+                "custom_data": "{ghostcraft:{type:\"flare\"}}",
+                "custom_name": {"text":"Flare","italic":false,"color":"gold"},
+                "custom_model_data": {
                   "strings": ["survivor_flare"]
                 },
-                "minecraft:use_cooldown": {
+                "use_cooldown": {
                   "seconds": 2,
                   "cooldown_group": "ghostcraft:grenade"
                 }

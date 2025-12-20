@@ -1,0 +1,153 @@
+{
+  "model": {
+    "type": "select",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/poisonous_potato"
+    },
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "deadly",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/deadly"
+        }
+      },
+      {
+        "when": "hearty",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/hearty"
+        }
+      },
+      {
+        "when": "1",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/1"
+        }
+      },
+      {
+        "when": "2",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/2"
+        }
+      },
+      {
+        "when": "3",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/3"
+        }
+      },
+      {
+        "when": "4",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/4"
+        }
+      },
+      {
+        "when": "5",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/5"
+        }
+      },
+      {
+        "when": "6",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/6"
+        }
+      },
+      {
+        "when": "7",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/7"
+        }
+      },
+      {
+        "when": "8",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/8"
+        }
+      },
+      {
+        "when": "9",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/positive/9"
+        }
+      },
+      {
+        "when": "-1",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/1"
+        }
+      },
+      {
+        "when": "-2",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/2"
+        }
+      },
+      {
+        "when": "-3",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/3"
+        }
+      },
+      {
+        "when": "-4",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/4"
+        }
+      },
+      {
+        "when": "-5",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/5"
+        }
+      },
+      {
+        "when": "-6",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/6"
+        }
+      },
+      {
+        "when": "-7",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/7"
+        }
+      },
+      {
+        "when": "-8",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/8"
+        }
+      },
+      {
+        "when": "-9",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/damage_indicator/negative/9"
+        }
+      }
+    ]
+  }
+}

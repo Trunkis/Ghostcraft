@@ -4,16 +4,16 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:compass",
+          "type": "item",
+          "name": "compass",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_data": "{ghostcraft:{type:\"tracking_compass\"}}",
-                "minecraft:custom_name": {"text":"Tracking Compass","italic":false,"color":"white"},
-                "minecraft:lore": [{"text":"Right click to update","italic":true,"color":"gray"}],
-                "minecraft:consumable": {
+                "custom_data": "{ghostcraft:{type:\"tracking_compass\"}}",
+                "custom_name": {"text":"Tracking Compass","italic":false,"color":"white"},
+                "lore": [{"text":"Right click to update","italic":true,"color":"gray"}],
+                "consumable": {
                   "consume_seconds": 1000000,
                   "animation": "none",
                   "has_consume_particles": false

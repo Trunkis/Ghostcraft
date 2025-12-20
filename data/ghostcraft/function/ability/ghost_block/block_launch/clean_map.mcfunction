@@ -1,138 +1,138 @@
 #
 #   Clean Map
 #   
-#   Purpose: To clear the map of ghost-launchable strict blocks
+#   Purpose: To clear the map of ghost-launchable blocks
 #
 #   Input: None
 #
 
 
-fill -64 64 -64 -33 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -33 -33 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -2 -33 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 29 -33 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -64 -2 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -33 -2 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -2 -2 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 29 -2 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -64 29 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -33 29 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -2 29 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 29 29 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -64 60 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -33 60 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -2 60 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 29 60 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -64 -33 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -33 -33 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -2 -33 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 29 -33 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -64 -2 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -33 -2 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -2 -2 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 29 -2 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -64 29 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -33 29 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -2 29 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 29 29 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -64 60 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -33 60 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -2 60 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 29 60 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -64 -33 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -33 -33 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 -2 -33 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 64 29 -33 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -64 -2 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -33 -2 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 -2 -2 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 64 29 -2 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -64 29 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -33 29 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 -2 29 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 64 29 29 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -64 60 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -33 60 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 -2 60 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 64 29 60 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 93 -64 -33 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 93 -33 -33 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 93 -2 -33 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 93 29 -33 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 93 -64 -2 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 93 -33 -2 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 93 -2 -2 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 93 29 -2 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 93 -64 29 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 93 -33 29 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 93 -2 29 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 93 29 29 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 93 -64 60 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 93 -33 60 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 93 -2 60 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 93 29 60 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 124 -64 -33 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 124 -33 -33 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 124 -2 -33 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 124 29 -33 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 124 -64 -2 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 124 -33 -2 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 124 -2 -2 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 124 29 -2 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 124 -64 29 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 124 -33 29 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 124 -2 29 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 124 29 29 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 124 -64 60 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 124 -33 60 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 124 -2 60 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 124 29 60 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 155 -64 -33 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 155 -33 -33 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 155 -2 -33 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 155 29 -33 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 155 -64 -2 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 155 -33 -2 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 155 -2 -2 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 155 29 -2 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 155 -64 29 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 155 -33 29 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 155 -2 29 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 155 29 29 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 155 -64 60 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 155 -33 60 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 155 -2 60 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 155 29 60 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 186 -64 -33 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 186 -33 -33 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 186 -2 -33 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 186 29 -33 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 186 -64 -2 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 186 -33 -2 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 186 -2 -2 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 186 29 -2 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 186 -64 29 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 186 -33 29 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 186 -2 29 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 186 29 29 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 186 -64 60 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 186 -33 60 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 186 -2 60 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 186 29 60 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 217 -64 -33 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 217 -33 -33 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 217 -2 -33 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -64 217 29 -33 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 217 -64 -2 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 217 -33 -2 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 217 -2 -2 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -33 217 29 -2 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 217 -64 29 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 217 -33 29 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 217 -2 29 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill -2 217 29 29 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 217 -64 60 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 217 -33 60 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 217 -2 60 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
-fill 29 217 29 60 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable strict
+fill -64 64 -64 -33 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -33 -33 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -2 -33 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 29 -33 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -64 -2 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -33 -2 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -2 -2 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 29 -2 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -64 29 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -33 29 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -2 29 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 29 29 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -64 60 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -33 60 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -2 60 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 29 60 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -64 -33 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -33 -33 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -2 -33 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 29 -33 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -64 -2 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -33 -2 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -2 -2 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 29 -2 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -64 29 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -33 29 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -2 29 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 29 29 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -64 60 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -33 60 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -2 60 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 29 60 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -64 -33 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -33 -33 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 -2 -33 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 64 29 -33 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -64 -2 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -33 -2 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 -2 -2 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 64 29 -2 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -64 29 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -33 29 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 -2 29 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 64 29 29 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -64 60 95 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -33 60 95 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 -2 60 95 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 64 29 60 95 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 93 -64 -33 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 93 -33 -33 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 93 -2 -33 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 93 29 -33 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 93 -64 -2 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 93 -33 -2 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 93 -2 -2 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 93 29 -2 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 93 -64 29 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 93 -33 29 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 93 -2 29 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 93 29 29 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 93 -64 60 124 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 93 -33 60 124 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 93 -2 60 124 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 93 29 60 124 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 124 -64 -33 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 124 -33 -33 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 124 -2 -33 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 124 29 -33 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 124 -64 -2 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 124 -33 -2 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 124 -2 -2 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 124 29 -2 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 124 -64 29 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 124 -33 29 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 124 -2 29 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 124 29 29 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 124 -64 60 155 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 124 -33 60 155 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 124 -2 60 155 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 124 29 60 155 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 155 -64 -33 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 155 -33 -33 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 155 -2 -33 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 155 29 -33 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 155 -64 -2 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 155 -33 -2 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 155 -2 -2 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 155 29 -2 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 155 -64 29 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 155 -33 29 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 155 -2 29 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 155 29 29 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 155 -64 60 186 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 155 -33 60 186 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 155 -2 60 186 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 155 29 60 186 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 186 -64 -33 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 186 -33 -33 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 186 -2 -33 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 186 29 -33 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 186 -64 -2 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 186 -33 -2 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 186 -2 -2 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 186 29 -2 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 186 -64 29 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 186 -33 29 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 186 -2 29 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 186 29 29 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 186 -64 60 217 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 186 -33 60 217 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 186 -2 60 217 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 186 29 60 217 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 217 -64 -33 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 217 -33 -33 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 217 -2 -33 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -64 217 29 -33 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 217 -64 -2 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 217 -33 -2 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 217 -2 -2 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -33 217 29 -2 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 217 -64 29 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 217 -33 29 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 217 -2 29 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill -2 217 29 29 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 217 -64 60 248 -33 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 217 -33 60 248 -2 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 217 -2 60 248 29 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
+fill 29 217 29 60 248 60 air replace #ghostcraft:ability/ghost_block/block_launch/launchable
 

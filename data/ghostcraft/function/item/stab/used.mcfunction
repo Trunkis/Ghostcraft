@@ -10,7 +10,7 @@ schedule function ghostcraft:item/stab/scheduled_attack 2s
 
 tag @s add ghostcraft.stab.using
 
-attribute @s minecraft:attack_damage modifier add ghostcraft.item.stab.using -1000 add_value
+attribute @s attack_damage modifier add ghostcraft.item.stab.using -1000 add_value
 data modify storage ghostcraft:data stab_queue append from entity @s UUID[0]
 
 scoreboard players set @s ghostcraft.ghost.boost.cooldown 50

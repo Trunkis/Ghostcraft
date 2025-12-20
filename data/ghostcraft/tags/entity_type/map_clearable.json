@@ -1,9 +1,9 @@
 {
     "values": [
-        "minecraft:arrow",
-        "minecraft:item",
-        "minecraft:snowball",
-        "minecraft:ender_pearl",
-        "minecraft:text_display"
+        "arrow",
+        "item",
+        "snowball",
+        "ender_pearl",
+        "text_display"
     ]
 }

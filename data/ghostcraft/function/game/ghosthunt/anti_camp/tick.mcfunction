@@ -15,8 +15,8 @@ execute if score game.ghosthunt.anti_camp.clock ghostcraft.config <= game.ghosth
 
 scoreboard players operation game.ghosthunt.anti_camp.time ghostcraft.temp %= game.ghosthunt.anti_camp.clock ghostcraft.config
 
-scoreboard players remove @e[type=minecraft:vex,tag=ghostcraft.game.ghosthunt.anti_camp.vex] ghostcraft.game.ghosthunt.anti_camp.lifetime 1
-execute as @e[type=minecraft:vex,tag=ghostcraft.game.ghosthunt.anti_camp.vex] if score @s ghostcraft.game.ghosthunt.anti_camp.lifetime matches ..0 run kill @s
+scoreboard players remove @e[type=vex,tag=ghostcraft.game.ghosthunt.anti_camp.vex] ghostcraft.game.ghosthunt.anti_camp.lifetime 1
+execute as @e[type=vex,tag=ghostcraft.game.ghosthunt.anti_camp.vex] if score @s ghostcraft.game.ghosthunt.anti_camp.lifetime matches ..0 run kill @s
 
 #execute as @e[type=marker,tag=ghostcraft.game.ghosthunt.anti_camp.player_marker] at @s run particle end_rod ~ ~ ~ 0 0 0 0 1 force
 

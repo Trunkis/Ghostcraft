@@ -16,14 +16,14 @@
     "mainhand"
   ],
   "effects": {
-    "minecraft:hit_block": [
+    "hit_block": [
       {
         "effect": {
-          "type": "minecraft:run_function",
+          "type": "run_function",
           "function": "ghostcraft:ability/ghost_block/block_launch/hit_launchable"
         },
         "requirements": {
-          "condition": "minecraft:location_check",
+          "condition": "location_check",
           "predicate": {
             "block": {
               "blocks": "#ghostcraft:ability/ghost_block/block_launch/launchable"

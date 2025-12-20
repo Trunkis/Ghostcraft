@@ -1,6 +1,6 @@
 {
   "description": "Infinity",
-  "supported_items": "minecraft:splash_potion",
+  "supported_items": "splash_potion",
   "weight": 1,
   "max_level": 1,
   "min_cost": {
@@ -14,17 +14,17 @@
   "anvil_cost": 0,
   "slots": [],
   "effects": {
-    "minecraft:projectile_spawned": [
+    "projectile_spawned": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "minecraft:splash_potion"
+            "type": "splash_potion"
           }
         },
         "effect": {
-          "type": "minecraft:run_function",
+          "type": "run_function",
           "function": "ghostcraft:kit/support/threw_infinite_potion"
         }
       }

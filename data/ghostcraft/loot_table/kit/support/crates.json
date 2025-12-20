@@ -4,15 +4,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
+          "type": "loot_table",
           "value": "ghostcraft:item/crate/arrow",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:score",
+                "type": "score",
                 "target": {
-                  "type": "minecraft:fixed",
+                  "type": "fixed",
                   "name": "kit.support.crate.arrow.count"
                 },
                 "score": "ghostcraft.config"
@@ -26,15 +26,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
+          "type": "loot_table",
           "value": "ghostcraft:item/crate/machine_bow_arrow",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:score",
+                "type": "score",
                 "target": {
-                  "type": "minecraft:fixed",
+                  "type": "fixed",
                   "name": "kit.support.crate.machine_bow_arrow.count"
                 },
                 "score": "ghostcraft.config"
@@ -48,15 +48,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
+          "type": "loot_table",
           "value": "ghostcraft:item/crate/flare",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:score",
+                "type": "score",
                 "target": {
-                  "type": "minecraft:fixed",
+                  "type": "fixed",
                   "name": "kit.support.crate.flare.count"
                 },
                 "score": "ghostcraft.config"
@@ -70,15 +70,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
+          "type": "loot_table",
           "value": "ghostcraft:item/crate/grenade",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:score",
+                "type": "score",
                 "target": {
-                  "type": "minecraft:fixed",
+                  "type": "fixed",
                   "name": "kit.support.crate.grenade.count"
                 },
                 "score": "ghostcraft.config"
@@ -92,15 +92,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
+          "type": "loot_table",
           "value": "ghostcraft:item/crate/speed_sugar",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:score",
+                "type": "score",
                 "target": {
-                  "type": "minecraft:fixed",
+                  "type": "fixed",
                   "name": "kit.support.crate.speed_sugar.count"
                 },
                 "score": "ghostcraft.config"
@@ -114,15 +114,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
+          "type": "loot_table",
           "value": "ghostcraft:item/crate/invisibility_dust",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:score",
+                "type": "score",
                 "target": {
-                  "type": "minecraft:fixed",
+                  "type": "fixed",
                   "name": "kit.support.crate.invisibility_dust.count"
                 },
                 "score": "ghostcraft.config"

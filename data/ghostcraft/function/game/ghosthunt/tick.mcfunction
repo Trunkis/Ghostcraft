@@ -31,7 +31,7 @@ function ghostcraft:game/ghosthunt/timer
 execute if score ghosthunt.timer.ended ghostcraft.temp matches 1 run return 0
 
 # Make all ghosts glow for the spectators
-execute as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] at @s run particle minecraft:glow ~ ~1 ~ 0.1 0.5 0.1 0 2 force @a[tag=ghostcraft.spectating]
+execute as @e[type=#ghostcraft:player,tag=ghostcraft.ghost] at @s run particle glow ~ ~1 ~ 0.1 0.5 0.1 0 2 force @a[tag=ghostcraft.spectating]
 
 # Tick all ghosthunt-related functions
 function #ghostcraft:game/ghosthunt/tick

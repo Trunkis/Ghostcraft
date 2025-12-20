@@ -12,7 +12,7 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "condition": "location_check",
       "offsetY": 1,
       "predicate": {
         "block": {
@@ -21,7 +21,7 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "condition": "location_check",
       "offsetY": 0,
       "predicate": {
         "block": {
@@ -30,7 +30,7 @@
       }
     },
     {
-      "condition": "minecraft:location_check",
+      "condition": "location_check",
       "offsetY": -1,
       "predicate": {
         "block": {

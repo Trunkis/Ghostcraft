@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
+          "type": "item",
+          "name": "splash_potion",
           "functions": [
             {
               "function": "set_potion",
-              "id": "minecraft:healing"
+              "id": "healing"
             },
             {
               "function": "set_components",
@@ -24,7 +24,7 @@
                   "seconds": 25,
                   "cooldown_group": "ghostcraft:kit/support/potion"
                 },
-                "minecraft:lore": [
+                "lore": [
                   {
                     "text": "Infinity",
                     "color": "#a037ac",

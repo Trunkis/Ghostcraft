@@ -9,5 +9,5 @@ tag @e[type=#ghostcraft:player] remove ghostcraft.item.frag_grenade.thrower
 
 playsound ghostcraft:explosion hostile @a ~ ~ ~ 2
 
-particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 2 force
-particle minecraft:explosion ~ ~ ~ 0 0 0 0 10 force
+particle explosion_emitter ~ ~ ~ 0 0 0 0 2 force
+particle explosion ~ ~ ~ 0 0 0 0 10 force

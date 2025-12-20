@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "select",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cookie"
+    },
+    "property": "custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "teleport_crystal",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/ghost/teleport_crystal"
+        }
+      },
+      {
+        "when": "arrow_crate",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/crate/arrow"
+        }
+      },
+      {
+        "when": "machine_bow_arrow_crate",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/crate/machine_bow_arrow"
+        }
+      },
+      {
+        "when": "flare_crate",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/crate/flare"
+        }
+      },
+      {
+        "when": "speed_sugar_crate",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/crate/speed_sugar"
+        }
+      },
+      {
+        "when": "grenade_crate",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/crate/grenade"
+        }
+      },
+      {
+        "when": "invisibility_dust_crate",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/crate/invisibility_dust"
+        }
+      }
+    ]
+  }
+}

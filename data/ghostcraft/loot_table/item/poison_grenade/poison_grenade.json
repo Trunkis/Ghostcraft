@@ -4,8 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "type": "item",
+          "name": "snowball",
           "functions": [
             {
               "function": "set_components",
@@ -15,13 +15,13 @@
               }
             },
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_data": "{ghostcraft:{type:\"poison_grenade\"}}",
-                "minecraft:custom_model_data": {
+                "custom_data": "{ghostcraft:{type:\"poison_grenade\"}}",
+                "custom_model_data": {
                   "strings": ["ghost_poison_grenade"]
                 },
-                "minecraft:use_cooldown": {
+                "use_cooldown": {
                   "seconds": 2,
                   "cooldown_group": "ghostcraft:grenade"
                 }

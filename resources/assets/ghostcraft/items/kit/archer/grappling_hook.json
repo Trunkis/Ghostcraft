@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "ghostcraft:item/survivor/grappling_hook/fishing_rod"
+  },
+  "hand_animation_on_swap": false
+}

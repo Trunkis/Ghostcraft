@@ -12,7 +12,7 @@ execute if entity @e[tag=ghostcraft.map.lobby] at @e[tag=ghostcraft.map.lobby,so
 
 execute unless score coming_from_lobby ghostcraft.temp matches 1 run function ghostcraft:game/player_reset
 
-attribute @s minecraft:attack_damage modifier add ghostcraft.game.lobby.player -10000 add_value
+attribute @s attack_damage modifier add ghostcraft.game.lobby.player -10000 add_value
 
 effect give @s saturation infinite 4 true
 effect give @s instant_health infinite 4 true

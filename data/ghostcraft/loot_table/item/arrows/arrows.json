@@ -4,8 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:arrow"
+          "type": "item",
+          "name": "arrow"
         }
       ]
     }

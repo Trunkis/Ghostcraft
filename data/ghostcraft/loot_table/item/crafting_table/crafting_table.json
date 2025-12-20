@@ -4,8 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:crafting_table",
+          "type": "item",
+          "name": "crafting_table",
           "functions": [
             {
               "function": "set_components",
@@ -15,12 +15,12 @@
               }
             },
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": {
+                "custom_model_data": {
                   "strings": ["ghost_crafting_table"]
                 },
-                "minecraft:custom_name": {"text":"Crafting Table","italic":false,"color":"white"}
+                "custom_name": {"text":"Crafting Table","italic":false,"color":"white"}
               }
             }
           ]

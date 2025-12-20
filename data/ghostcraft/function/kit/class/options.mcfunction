@@ -7,7 +7,7 @@
 #
 
 
-execute if items entity @s weapon.offhand minecraft:stick[custom_data~{ghostcraft:{is_kit_option:true}}] run function ghostcraft:kit/class/kit_options/return_offhand
+execute if items entity @s weapon.offhand stick[custom_data~{ghostcraft:{is_kit_option:true}}] run function ghostcraft:kit/class/kit_options/return_offhand
 
 execute if score @s ghostcraft.trigger.class matches -1 run function ghostcraft:kit/class/kit_options/previous
 execute if score @s ghostcraft.trigger.class matches -2 run function ghostcraft:kit/class/kit_options/next

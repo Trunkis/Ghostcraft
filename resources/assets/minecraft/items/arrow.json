@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "select",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/arrow"
+    },
+    "property": "custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "machine_bow_arrow",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/machine_bow_arrow"
+        }
+      }
+    ]
+  }
+}

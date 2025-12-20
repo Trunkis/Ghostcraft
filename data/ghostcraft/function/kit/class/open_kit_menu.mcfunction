@@ -7,7 +7,7 @@
 #
 
 
-execute if items entity @s weapon.mainhand minecraft:stick[custom_data~{ghostcraft:{is_kit_option:true}}] run function ghostcraft:kit/class/show_dialog
+execute if items entity @s weapon.mainhand stick[custom_data~{ghostcraft:{is_kit_option:true}}] run function ghostcraft:kit/class/show_dialog
 
 advancement revoke @s only ghostcraft:kit/class/open_kit_menu
 

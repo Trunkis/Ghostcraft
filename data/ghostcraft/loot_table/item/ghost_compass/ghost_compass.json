@@ -4,17 +4,17 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:compass",
+          "type": "item",
+          "name": "compass",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:item_model": "ghostcraft:kit/ghost/compass",
-                "minecraft:custom_data": "{ghostcraft:{type:\"ghost_compass\"}}",
-                "minecraft:custom_name": {"text":"Ghost Compass","italic":false,"color":"white"},
-                "minecraft:lore": [{"text":"Right click to update","italic":true,"color":"gray"}],
-                "minecraft:consumable": {
+                "item_model": "ghostcraft:kit/ghost/compass",
+                "custom_data": "{ghostcraft:{type:\"ghost_compass\"}}",
+                "custom_name": {"text":"Ghost Compass","italic":false,"color":"white"},
+                "lore": [{"text":"Right click to update","italic":true,"color":"gray"}],
+                "consumable": {
                   "consume_seconds": 1000000,
                   "animation": "none",
                   "has_consume_particles": false

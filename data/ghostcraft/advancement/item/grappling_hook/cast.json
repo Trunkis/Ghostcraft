@@ -1,11 +1,11 @@
 {
   "criteria": {
     "ghostcraft.item.grappling_hook.used": {
-      "trigger": "minecraft:tick",
+      "trigger": "tick",
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:reference",
+            "condition": "reference",
             "name": "ghostcraft:item/grappling_hook/score"
           }
         ]

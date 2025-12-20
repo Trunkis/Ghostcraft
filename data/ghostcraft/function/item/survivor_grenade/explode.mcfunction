@@ -9,5 +9,5 @@ execute at @s as @e[type=#ghostcraft:player,tag=!ghostcraft.ghost,tag=!ghostcraf
 
 playsound ghostcraft:explosion hostile @a ~ ~ ~ 3
 
-particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 3 force
-particle minecraft:explosion ~ ~ ~ 0 0 0 0 13 force
+particle explosion_emitter ~ ~ ~ 0 0 0 0 3 force
+particle explosion ~ ~ ~ 0 0 0 0 13 force

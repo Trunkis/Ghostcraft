@@ -25,7 +25,7 @@ scoreboard players remove ghosts_left ghostcraft.temp 1
 # Reset our ghost choice weight
 scoreboard players set @s ghostcraft.game.ghost_choice_weight 0
 
-attribute @s minecraft:attack_speed modifier add ghostcraft.game.ghosthunt.ghost.attack_speed 1000000 add_value
+attribute @s attack_speed modifier add ghostcraft.game.ghosthunt.ghost.attack_speed 1000000 add_value
 
 team join ghostcraft.game.ghosthunt.ghost
 function ghostcraft:ability/damage_indicator/grant

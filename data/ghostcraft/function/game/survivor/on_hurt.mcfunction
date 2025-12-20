@@ -7,5 +7,5 @@
 #
 
 
-particle minecraft:block{block_state:"minecraft:lava"} ~ ~1 ~ 0.05 0.5 0.05 1 50 force @a[tag=!effect.player.hurt_effect.invisible]
+particle block{block_state:"lava"} ~ ~1 ~ 0.05 0.5 0.05 1 50 force @a[tag=!effect.player.hurt_effect.invisible]
 

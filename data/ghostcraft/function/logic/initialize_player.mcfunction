@@ -7,6 +7,6 @@ scoreboard players reset @s ghostcraft.times_left
 
 function #ghostcraft:game/new_player
 
-attribute @s minecraft:block_break_speed base set 0
+attribute @s block_break_speed base set 0
 
 tag @s add ghostcraft.player.initialized

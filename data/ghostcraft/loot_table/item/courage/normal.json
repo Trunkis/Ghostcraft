@@ -4,13 +4,13 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:potion",
+          "type": "item",
+          "name": "potion",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_name": {"text":"Courage","italic":false,"bold":false,"color":"aqua"},
+                "custom_name": {"text":"Courage","italic":false,"bold":false,"color":"aqua"},
                 "tooltip_display": {
                   "hidden_components": [
                     "attribute_modifiers",

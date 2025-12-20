@@ -1,0 +1,26 @@
+{
+  "death.attack.ghostcraft.crafting_table": "%1$s was smashed by a flying block",
+  "death.attack.ghostcraft.crafting_table.item": "%1$s was smashed by a flying block",
+  "death.attack.ghostcraft.crafting_table.player": "%1$s was smashed by a flying block while fighting %2$s",
+  "death.attack.ghostcraft.crafting_table.player.item": "%1$s was smashed by a flying block while fighting %2$s",
+
+  "death.attack.ghostcraft.survivor_grenade": "%1$s was blown up by a survivor's grenade",
+  "death.attack.ghostcraft.survivor_grenade.item": "%1$s was blown up by a survivor's grenade",
+  "death.attack.ghostcraft.survivor_grenade.player": "%1$s was blown up by a survivor's grenade while fighting %2$s",
+  "death.attack.ghostcraft.survivor_grenade.player.item": "%1$s was blown up by a survivor's grenade while fighting %2$s",
+  
+  "death.attack.ghostcraft.stab": "%1$s was stabbed by the ghost",
+  "death.attack.ghostcraft.stab.item": "%1$s was stabbed by the ghost",
+  "death.attack.ghostcraft.stab.player": "%1$s was stabbed by the ghost while fighting %2$s",
+  "death.attack.ghostcraft.stab.player.item": "%1$s was stabbed by the ghost while fighting %2$s",
+
+  "death.attack.ghostcraft.frag_grenade": "%1$s was blown up by the ghost's grenade",
+  "death.attack.ghostcraft.frag_grenade.item": "%1$s was blown up by the ghost's grenade",
+  "death.attack.ghostcraft.frag_grenade.player": "%1$s was blown up by the ghost's grenade while fighting %2$s",
+  "death.attack.ghostcraft.frag_grenade.player.item": "%1$s was blown up the ghost's grenade while fighting %2$s",
+
+  "death.attack.ghostcraft.friendly_fire": "%1$s died from friendly fire",
+  "death.attack.ghostcraft.friendly_fire.item": "%1$s died from friendly fire",
+  "death.attack.ghostcraft.friendly_fire.player": "%1$s died from friendly fire while fighting %2$s",
+  "death.attack.ghostcraft.friendly_fire.player.item": "%1$s died from friendly fire while fighting %2$s"
+}

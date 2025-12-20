@@ -1,12 +1,12 @@
 {
   "criteria": {
     "ghostcraft.item.teleport_crystal.consumed": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "consume_item",
       "conditions": {
         "item": {
-          "items": "minecraft:cookie",
+          "items": "cookie",
           "components": {
-            "minecraft:custom_model_data": {
+            "custom_model_data": {
               "strings": [
                 "teleport_crystal"
               ]

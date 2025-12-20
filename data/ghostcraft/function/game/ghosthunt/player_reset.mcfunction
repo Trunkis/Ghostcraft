@@ -19,6 +19,6 @@ function ghostcraft:ability/damage_indicator/revoke
 
 tag @s remove ghostcraft.spectating
 
-attribute @s minecraft:attack_speed modifier remove ghostcraft.game.ghosthunt.survivor.attack_speed
-attribute @s minecraft:attack_speed modifier remove ghostcraft.game.ghosthunt.ghost.attack_speed
+attribute @s attack_speed modifier remove ghostcraft.game.ghosthunt.survivor.attack_speed
+attribute @s attack_speed modifier remove ghostcraft.game.ghosthunt.ghost.attack_speed
 

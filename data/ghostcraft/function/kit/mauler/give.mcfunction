@@ -1,5 +1,5 @@
 
-attribute @s minecraft:attack_damage modifier add ghostcraft.kit.mauler.attack_speed -1 add_value
+attribute @s attack_damage modifier add ghostcraft.kit.mauler.attack_speed -1 add_value
 
 loot give @s loot ghostcraft:kit/mauler/sword
 

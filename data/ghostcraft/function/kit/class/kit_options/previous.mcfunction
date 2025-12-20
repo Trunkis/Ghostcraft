@@ -12,8 +12,8 @@ summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,ShowArms:1b,Tags:["ghostcraf
 item replace entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] weapon.mainhand from entity @s weapon.mainhand
 
 # Cycle class option here
-data modify entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."minecraft:custom_data".ghostcraft.kit_options prepend from entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."minecraft:custom_data".ghostcraft.kit_options[-1]
-data remove entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."minecraft:custom_data".ghostcraft.kit_options[-1]
+data modify entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."custom_data".ghostcraft.kit_options prepend from entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."custom_data".ghostcraft.kit_options[-1]
+data remove entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] equipment.mainhand.components."custom_data".ghostcraft.kit_options[-1]
 
 item replace entity @s weapon.mainhand from entity @e[tag=ghostcraft.kit.class.kit_options.get.temp,limit=1] weapon.mainhand
 

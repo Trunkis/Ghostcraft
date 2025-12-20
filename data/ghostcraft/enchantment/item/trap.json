@@ -16,10 +16,10 @@
     "mainhand"
   ],
   "effects": {
-    "minecraft:hit_block": [
+    "hit_block": [
       {
         "effect": {
-          "type": "minecraft:run_function",
+          "type": "run_function",
           "function": "ghostcraft:item/trap/hit_block"
         }
       }

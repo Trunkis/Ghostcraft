@@ -4,38 +4,38 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cookie",
+          "type": "item",
+          "name": "cookie",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:food": {
+                "food": {
                   "nutrition": 0,
                   "saturation": 0,
                   "can_always_eat": true
                 },
-                "minecraft:consumable": {
+                "consumable": {
                   "consume_seconds": 0.333,
                   "animation": "block",
-                  "sound": "minecraft:entity.item.pickup",
+                  "sound": "entity.item.pickup",
                   "has_consume_particles": true,
                   "on_consume_effects": []
                 },
-                "minecraft:custom_name": {
+                "custom_name": {
                   "text": "Grenade Crate",
                   "color": "#a37f4d",
-                  "font": "minecraft:default",
+                  "font": "default",
                   "bold": false,
                   "italic": false,
                   "strikethrough": false
                 },
-                "minecraft:custom_model_data": {
+                "custom_model_data": {
                   "strings": [
                     "grenade_crate"
                   ]
                 },
-                "minecraft:lore": [
+                "lore": [
                   [
                     {
                       "text": "Can be consumed",

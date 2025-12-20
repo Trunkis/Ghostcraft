@@ -23,23 +23,22 @@ team modify ghostcraft.lobby seeFriendlyInvisibles true
 
 
 # Setup gamerules
-gamerule doEntityDrops false
-gamerule doImmediateRespawn true
-gamerule doMobLoot false
-gamerule doMobSpawning false
-gamerule disableElytraMovementCheck true
-gamerule disableRaids true
-gamerule doDaylightCycle false
-gamerule doFireTick false
-gamerule doVinesSpread false
-gamerule doTileDrops false
-gamerule doWeatherCycle false
-gamerule doWardenSpawning false
-gamerule keepInventory true
-gamerule mobGriefing false
-gamerule naturalRegeneration false
-gamerule spawnRadius 0
-gamerule sendCommandFeedback false
-gamerule showDeathMessages false
-gamerule announceAdvancements false
-
+gamerule entity_drops false
+gamerule immediate_respawn true
+gamerule mob_drops false
+gamerule spawn_mobs false
+gamerule elytra_movement_check false
+gamerule raids false
+gamerule advance_time false
+gamerule fire_spread_radius_around_player 0
+gamerule spread_vines false
+gamerule block_drops false
+gamerule advance_weather false
+gamerule spawn_wardens false
+gamerule keep_inventory true
+gamerule mob_griefing false
+gamerule natural_health_regeneration false
+gamerule respawn_radius 0
+gamerule send_command_feedback true
+gamerule show_death_messages false
+gamerule show_advancement_messages false

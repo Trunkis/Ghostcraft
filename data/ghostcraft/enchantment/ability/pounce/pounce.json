@@ -1,6 +1,6 @@
 {
   "description": "Pounce",
-  "supported_items": "#minecraft:enchantable/foot_armor",
+  "supported_items": "#enchantable/foot_armor",
   "weight": 1,
   "max_level": 1,
   "min_cost": {
@@ -16,10 +16,10 @@
     "feet"
   ],
   "effects": {
-    "minecraft:tick": [
+    "tick": [
       {
         "effect": {
-          "type": "minecraft:run_function",
+          "type": "run_function",
           "function": "ghostcraft:ability/pounce/perform"
         }
       }

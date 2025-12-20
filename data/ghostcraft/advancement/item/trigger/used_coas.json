@@ -1,14 +1,14 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:tick",
+      "trigger": "tick",
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:all_of",
+            "condition": "all_of",
             "terms": [
               {
-                "condition": "minecraft:entity_scores",
+                "condition": "entity_scores",
                 "entity": "this",
                 "scores": {
                   "ghostcraft.used_coas": {

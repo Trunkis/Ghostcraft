@@ -4,11 +4,11 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_hoe",
+          "type": "item",
+          "name": "stone_hoe",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
                 "unbreakable": {},
                 "tooltip_display": {

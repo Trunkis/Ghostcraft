@@ -4,23 +4,23 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "type": "item",
+          "name": "snowball",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
                 }
             },
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:lore": [[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Teleports you where it lands","italic":false,"color":"gray"}]],
-                "minecraft:custom_data": "{ghostcraft:{type:\"blink\"}}",
-                "minecraft:custom_model_data": {
+                "lore": [[{"text":"Can be thrown","italic":false,"color":"gray"}],[{"text":"Teleports you where it lands","italic":false,"color":"gray"}]],
+                "custom_data": "{ghostcraft:{type:\"blink\"}}",
+                "custom_model_data": {
                   "strings": ["ghost_blink"]                  
                 },
-                "minecraft:custom_name": {"text":"Blink","italic":false,"color":"gold"}
+                "custom_name": {"text":"Blink","italic":false,"color":"gold"}
               }
             }
           ]

@@ -1,6 +1,6 @@
 {
   "description": "Suffocation Immunity",
-  "supported_items": "#minecraft:enchantable/armor",
+  "supported_items": "#enchantable/armor",
   "weight": 1,
   "max_level": 1,
   "min_cost": {
@@ -14,10 +14,10 @@
   "anvil_cost": 0,
   "slots": [],
   "effects": {
-    "minecraft:damage_protection": [
+    "damage_protection": [
       {
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "condition": "damage_source_properties",
           "predicate": {
             "tags": [
               {
@@ -28,7 +28,7 @@
           }
         },
         "effect": {
-          "type": "minecraft:multiply",
+          "type": "multiply",
           "factor": 0
         }
       }

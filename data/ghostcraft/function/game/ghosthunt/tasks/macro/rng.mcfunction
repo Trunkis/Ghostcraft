@@ -7,5 +7,5 @@
 #
 
 
-$execute store result score rng ghostcraft.temp run random roll $(min)..$(max)
+$execute store result score rng ghostcraft.temp run random value $(min)..$(max)
 

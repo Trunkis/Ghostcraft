@@ -1,5 +1,5 @@
 
-playsound minecraft:entity.ender_dragon.flap hostile @a[distance=..20] ~ ~ ~ 1 0.5
+playsound entity.ender_dragon.flap hostile @a[distance=..20] ~ ~ ~ 1 0.5
 
 scoreboard players operation @s ghostcraft.temp = @s ghostcraft.ability.pounce.power
 scoreboard players operation @s ghostcraft.temp *= power_scale ghostcraft.ability.pounce.power

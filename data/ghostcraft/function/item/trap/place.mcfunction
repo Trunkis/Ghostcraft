@@ -8,6 +8,6 @@
 
 
 summon marker ~ ~ ~ {Tags:["ghostcraft.item.trap"]}
-playsound minecraft:block.wooden_door.open block @p[tag=ghostcraft.trap.trapper] ~ ~ ~ 2 0.2
+playsound block.wooden_door.open block @p[tag=ghostcraft.trap.trapper] ~ ~ ~ 2 0.2
 particle end_rod ~ ~ ~ 0 0.2 0 0 2 force
 

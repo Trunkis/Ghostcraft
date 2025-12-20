@@ -4,29 +4,29 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:sugar",
+          "type": "item",
+          "name": "sugar",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_name": {
+                "custom_name": {
                   "text": "Speed Sugar",
                   "color": "green",
                   "bold": false,
                   "italic": false
                 },
-                "minecraft:consumable": {
+                "consumable": {
                   "consume_seconds": 0.5,
                   "animation": "eat",
-                  "sound": "minecraft:entity.generic.eat",
+                  "sound": "entity.generic.eat",
                   "has_consume_particles": true,
                   "on_consume_effects": [
                     {
-                      "type": "minecraft:apply_effects",
+                      "type": "apply_effects",
                       "effects": [
                         {
-                          "id": "minecraft:speed",
+                          "id": "speed",
                           "amplifier": 1,
                           "duration": 80,
                           "ambient": true,
@@ -36,17 +36,17 @@
                       ]
                     },
                     {
-                      "type": "minecraft:play_sound",
-                      "sound": "minecraft:entity.player.burp"
+                      "type": "play_sound",
+                      "sound": "entity.player.burp"
                     }
                   ]
                 },
-                "minecraft:food": {
+                "food": {
                   "nutrition": 0,
                   "saturation": 0,
                   "can_always_eat": true
                 },
-                "minecraft:lore": [
+                "lore": [
                   {
                     "text": "Consume to gain a speed boost!",
                     "color": "gray"

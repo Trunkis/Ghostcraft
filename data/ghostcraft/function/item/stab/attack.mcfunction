@@ -1,8 +1,8 @@
 
-attribute @s minecraft:attack_damage modifier remove ghostcraft.item.stab.using
+attribute @s attack_damage modifier remove ghostcraft.item.stab.using
 
 playsound ghostcraft:stab_finish hostile @a ~ ~ ~ 1
-execute positioned ~ ~1 ~ run particle minecraft:block{block_state:"minecraft:fire"} ^ ^ ^1 0.25 0.5 0.25 0 30
+execute positioned ~ ~1 ~ run particle block{block_state:"fire"} ^ ^ ^1 0.25 0.5 0.25 0 30
 
 tag @s add ghostcraft.item.stab.stabber
 

@@ -2,12 +2,12 @@
   "anvil_cost": 0,
   "description": "Inverse Density",
   "effects": {
-    "minecraft:smash_damage_per_fallen_block": [
+    "smash_damage_per_fallen_block": [
       {
         "effect": {
-          "type": "minecraft:add",
+          "type": "add",
           "value": {
-            "type": "minecraft:linear",
+            "type": "linear",
             "base": -0.75,
             "per_level_above_first": -0.5
           }
@@ -15,7 +15,7 @@
       }
     ]
   },
-  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "exclusive_set": "#exclusive_set/damage",
   "max_cost": {
     "base": 0,
     "per_level_above_first": 0
@@ -28,6 +28,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/mace",
+  "supported_items": "#enchantable/mace",
   "weight": 1
 }

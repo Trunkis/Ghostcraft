@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:multi_action",
+  "type": "multi_action",
   "title": [
     {
       "text": "Class Selection",
@@ -10,7 +10,7 @@
   "external_title": "",
   "body": [
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": [
         {
           "text": "Random",
@@ -18,13 +18,13 @@
           "shadow_color": -16777216
         },
         {
-          "atlas":"minecraft:gui",
-          "sprite": "minecraft:mob_effect/luck"
+          "atlas":"gui",
+          "sprite": "mob_effect/luck"
         }
       ]
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": [
         {
           "text":"Leave it up to RNG!",
@@ -35,103 +35,103 @@
       ]
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
     },
     {
-      "type": "minecraft:plain_message",
+      "type": "plain_message",
       "contents": {
         "text": ""
       }
@@ -148,7 +148,7 @@
       "tooltip": "Previous Class",
       "width": 20,
       "action": {
-        "type": "minecraft:run_command",
+        "type": "run_command",
         "command": "/trigger ghostcraft.trigger.class set -1"
       }
     },
@@ -156,7 +156,7 @@
       "label": "Select",
       "width": 300,
       "action": {
-        "type": "minecraft:run_command",
+        "type": "run_command",
         "command": "/trigger ghostcraft.trigger.class set 7"
       }
     },
@@ -165,7 +165,7 @@
       "tooltip": "Next Class",
       "width": 20,
       "action": {
-        "type": "minecraft:run_command",
+        "type": "run_command",
         "command": "/trigger ghostcraft.trigger.class set -2"
       }
     }

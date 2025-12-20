@@ -4,15 +4,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:mace",
+          "type": "item",
+          "name": "mace",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:lore": [{"text": "Requires you to fall to use this weapon","color": "gray","italic": true}],
-                "minecraft:unbreakable": {},
-                "minecraft:tooltip_display": {
+                "lore": [{"text": "Requires you to fall to use this weapon","color": "gray","italic": true}],
+                "unbreakable": {},
+                "tooltip_display": {
                   "hidden_components": [
                     "unbreakable",
                     "attribute_modifiers",
@@ -23,19 +23,19 @@
                   "ghostcraft:kit/mauler/inverse_density": 1
                 },
                 "enchantment_glint_override": false,
-                "minecraft:attribute_modifiers": [
+                "attribute_modifiers": [
                   {
                     "amount": 0.001,
                     "operation": "add_value",
-                    "id": "minecraft:ghostcraft.kit.mauler.mace.attack_damage",
-                    "type": "minecraft:attack_damage",
+                    "id": "ghostcraft.kit.mauler.mace.attack_damage",
+                    "type": "attack_damage",
                     "slot": "mainhand"
                   },
                   {
                     "amount": -1000003.3333,
                     "operation": "add_value",
-                    "id": "minecraft:ghostcraft.kit.mauler.mace.attack_speed",
-                    "type": "minecraft:attack_speed",
+                    "id": "ghostcraft.kit.mauler.mace.attack_speed",
+                    "type": "attack_speed",
                     "slot": "mainhand"
                   }
                 ]

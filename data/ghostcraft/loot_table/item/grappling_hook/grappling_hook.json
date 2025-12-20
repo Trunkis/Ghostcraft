@@ -4,15 +4,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:fishing_rod",
+          "type": "item",
+          "name": "fishing_rod",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:item_model": "ghostcraft:kit/archer/grappling_hook",
-                "minecraft:custom_name": {"text":"Grappling Hook","italic":false,"color":"aqua"},
-                "minecraft:custom_data": "{ghostcraft:{type:\"grappling_hook\"}}"
+                "item_model": "ghostcraft:kit/archer/grappling_hook",
+                "custom_name": {"text":"Grappling Hook","italic":false,"color":"aqua"},
+                "custom_data": "{ghostcraft:{type:\"grappling_hook\"}}"
               }
             }
           ]

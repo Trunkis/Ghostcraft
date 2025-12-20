@@ -4,11 +4,11 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_pickaxe",
+          "type": "item",
+          "name": "netherite_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
                 "unbreakable": {},
                 "tooltip_display": {
@@ -16,16 +16,16 @@
                     "unbreakable"
                   ]
                 },
-                "minecraft:attribute_modifiers": [
+                "attribute_modifiers": [
                   {
-                    "type": "minecraft:attack_speed",
+                    "type": "attack_speed",
                     "id": "ghostcraft.kit.hunter.netherite_pickaxe",
                     "amount": 0.1,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
-                    "type": "minecraft:attack_damage",
+                    "type": "attack_damage",
                     "id": "ghostcraft.kit.hunter.netherite_pickaxe",
                     "amount": 1,
                     "operation": "add_value",

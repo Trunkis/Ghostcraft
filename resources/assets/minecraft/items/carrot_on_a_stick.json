@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "select",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    },
+    "property": "custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "ghost_boost",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/ghost/boost"
+        }
+      },
+      {
+        "when": "ghost_stab",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/ghost/stab"
+        }
+      },
+      {
+        "when": "survivor_trap",
+        "model": {
+          "type": "model",
+          "model": "ghostcraft:item/survivor/trap"
+        }
+      }
+    ]
+  }
+}

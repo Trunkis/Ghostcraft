@@ -4,18 +4,16 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "type": "item",
+          "name": "carrot_on_a_stick",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:lore": [[{"text":"Click a block to set a trap on top","italic":false,"color":"gray"}]],
-                "minecraft:custom_data": "{ghostcraft:{type:\"trap\"}}",
-                "minecraft:custom_model_data": {
-                  "strings": ["survivor_trap"]
-                },
-                "minecraft:custom_name": {"text":"Trap","italic":false,"color":"gold"},
+                "lore": [[{"text":"Click a block to set a trap on top","italic":false,"color":"gray"}]],
+                "custom_data": "{ghostcraft:{type:\"trap\"}}",
+                "item_model": "stick",
+                "custom_name": {"text":"Trap","italic":false,"color":"gold"},
                 "enchantments": {"ghostcraft:item/trap":1},
                 "enchantment_glint_override": false,
                 "max_damage": 25,

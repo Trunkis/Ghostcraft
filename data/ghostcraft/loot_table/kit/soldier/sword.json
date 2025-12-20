@@ -4,11 +4,11 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
+          "type": "item",
+          "name": "golden_sword",
           "functions": [
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
                 "unbreakable": {},
                 "tooltip_display": {

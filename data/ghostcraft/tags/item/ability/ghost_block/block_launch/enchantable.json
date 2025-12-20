@@ -1,7 +1,7 @@
 {
     "values": [
-        "#minecraft:enchantable/weapon",
-        "minecraft:carrot_on_a_stick",
-        "minecraft:snowball"
+        "#enchantable/weapon",
+        "carrot_on_a_stick",
+        "snowball"
     ]
 }

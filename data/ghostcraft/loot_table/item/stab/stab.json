@@ -4,8 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "type": "item",
+          "name": "carrot_on_a_stick",
           "functions": [
             {
               "function": "set_components",
@@ -15,12 +15,10 @@
               }
             },
             {
-              "function": "minecraft:set_components",
+              "function": "set_components",
               "components": {
-                "minecraft:custom_data": "{ghostcraft:{type:\"stab\"}}",
-                "minecraft:custom_model_data": {
-                  "strings": ["ghost_stab"]
-                }
+                "custom_data": "{ghostcraft:{type:\"stab\"}}",
+                "item_model": "shears"
               }
             }
           ]

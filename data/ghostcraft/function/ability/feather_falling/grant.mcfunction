@@ -9,4 +9,4 @@
 
 tag @s add ghostcraft.ability.feather_falling
 
-attribute @s minecraft:fall_damage_multiplier base set 0
+attribute @s fall_damage_multiplier base set 0

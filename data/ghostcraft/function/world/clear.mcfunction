@@ -128,6 +128,6 @@ fill 29 217 -2 60 248 29 air strict
 fill 29 217 29 60 248 60 air strict
 
 
-execute in ghostcraft:empty run kill @e[type=minecraft:item_display,distance=..10000]
+execute in ghostcraft:empty run kill @e[type=item_display,distance=..10000]
 execute in ghostcraft:empty run kill @e[tag=ghostcraft.map]
 

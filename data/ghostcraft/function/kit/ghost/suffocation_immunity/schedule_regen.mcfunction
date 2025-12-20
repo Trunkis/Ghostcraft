@@ -1,7 +1,7 @@
 
-execute as @a if data entity @s equipment.feet.components."minecraft:enchantments"{"ghostcraft:kit/ghost/suffocation_immunity":1} if score @s ghostcraft.kit.ghost.suffocation_immunity = last_id ghostcraft.kit.ghost.suffocation_immunity run tag @s add ghostcraft.kit.ghost.suffocation_immunity.target
+execute as @a if data entity @s equipment.feet.components."enchantments"{"ghostcraft:kit/ghost/suffocation_immunity":1} if score @s ghostcraft.kit.ghost.suffocation_immunity = last_id ghostcraft.kit.ghost.suffocation_immunity run tag @s add ghostcraft.kit.ghost.suffocation_immunity.target
 scoreboard players add last_id ghostcraft.kit.ghost.suffocation_immunity 1
 
-effect clear @a[tag=ghostcraft.kit.ghost.suffocation_immunity.target] minecraft:regeneration
+effect clear @a[tag=ghostcraft.kit.ghost.suffocation_immunity.target] regeneration
 
 tag @a remove ghostcraft.kit.ghost.suffocation_immunity.target

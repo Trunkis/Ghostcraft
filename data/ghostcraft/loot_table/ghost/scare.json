@@ -4,15 +4,15 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:loot_table",
+            "type": "loot_table",
             "value": "ghostcraft:item/scare/scare",
             "functions": [
               {
-                "function": "minecraft:set_count",
+                "function": "set_count",
                 "count": {
-                  "type": "minecraft:score",
+                  "type": "score",
                   "target": {
-                    "type": "minecraft:fixed",
+                    "type": "fixed",
                     "name": "kit.ghost.scare.count"
                   },
                   "score": "ghostcraft.config"

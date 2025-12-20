@@ -12,24 +12,24 @@
   "anvil_cost": 0,
   "description": "Shotgun",
   "effects": {
-    "minecraft:projectile_count": [
+    "projectile_count": [
       {
         "effect": {
-          "type": "minecraft:add",
+          "type": "add",
           "value": {
-            "type": "minecraft:linear",
+            "type": "linear",
             "base": 4,
             "per_level_above_first": 4
           }
         }
       }
     ],
-    "minecraft:projectile_spread": [
+    "projectile_spread": [
       {
         "effect": {
-          "type": "minecraft:add",
+          "type": "add",
           "value": {
-            "type": "minecraft:linear",
+            "type": "linear",
             "base": 3,
             "per_level_above_first": 3
           }
@@ -40,5 +40,5 @@
   "slots": [
     "hand"
   ],
-  "supported_items": "#minecraft:enchantable/crossbow"
+  "supported_items": "#enchantable/crossbow"
 }
