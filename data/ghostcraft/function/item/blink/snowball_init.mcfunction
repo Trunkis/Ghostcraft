@@ -1,4 +1,3 @@
-
 tag @s add ghostcraft.item.blink
 tag @s add ghostcraft.item.steed
 tag @s add ghostcraft.item.timer_cycle

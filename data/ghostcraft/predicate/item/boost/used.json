@@ -2,6 +2,6 @@
   "condition": "entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{SelectedItem:{components:{\"custom_data\":{ghostcraft:{type:\"ghost_boost\"}}}}}"
+    "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{ghostcraft:{type:\"ghost_boost\"}}}}}"
   }
 }

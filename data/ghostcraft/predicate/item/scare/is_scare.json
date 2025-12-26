@@ -2,6 +2,6 @@
   "condition": "entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{Item:{components:{\"custom_data\":{ghostcraft:{type:\"scare\"}}}}}"
+    "nbt": "{Item:{components:{\"minecraft:custom_data\":{ghostcraft:{type:\"scare\"}}}}}"
   }
 }

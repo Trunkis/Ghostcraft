@@ -92,15 +92,6 @@ function ghostcraft:world/initialize
 
 function ghostcraft:map/refresh
 
-# Gracious messages to spam chat with
-function ghostcraft:meta/requirements/check
-
-#schedule function ghostcraft:meta/grace/message_1 1s
-#schedule function ghostcraft:meta/grace/message_5 5s
-#schedule function ghostcraft:meta/grace/message_10 10s
-#schedule function ghostcraft:meta/grace/message_15 15s
-
-
 # Create storage
 data merge storage ghostcraft:data {stab_queue:[],vampire_queue:[],dimension:"ghostcraft:empty"}
 

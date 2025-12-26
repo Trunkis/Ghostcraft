@@ -14,4 +14,3 @@ execute in ghostcraft:empty positioned 0 0 0 run function ghostcraft:game/ghosth
 
 title @s title {"text":""}
 title @s actionbar {"text":"A game is in progress, please wait..."}
-
