@@ -18,10 +18,9 @@
 # # Formula is  y = 0.034*x^2 + 1.284*x - 1.214
 # Used approximation: 0.83y + 4.1 = 1.2x
 
-function ghostcraft:item/get_data
-execute store result score dx ghostcraft.temp run data get storage ghostcraft:data temp."custom_data".ghostcraft.bobber_data.Pos[0] 1000
-execute store result score dy ghostcraft.temp run data get storage ghostcraft:data temp."custom_data".ghostcraft.bobber_data.Pos[1] 1000
-execute store result score dz ghostcraft.temp run data get storage ghostcraft:data temp."custom_data".ghostcraft.bobber_data.Pos[2] 1000
+execute store result score dx ghostcraft.temp run data get storage ghostcraft:data bobber_data.Pos[0] 1000
+execute store result score dy ghostcraft.temp run data get storage ghostcraft:data bobber_data.Pos[1] 1000
+execute store result score dz ghostcraft.temp run data get storage ghostcraft:data bobber_data.Pos[2] 1000
 
 scoreboard players set 0.83 ghostcraft.temp 830
 scoreboard players set 1000 ghostcraft.temp 1000
@@ -32,7 +31,9 @@ scoreboard players set $x player_motion.api.launch 0
 scoreboard players set $y player_motion.api.launch 0
 scoreboard players set $z player_motion.api.launch 0
 
-execute store result score temp ghostcraft.temp run data get entity @s Pos[0] 1000
+data modify storage ghostcraft:data temp set from entity @s Pos
+
+execute store result score temp ghostcraft.temp run data get storage ghostcraft:data temp[0] 1000
 scoreboard players operation dx ghostcraft.temp -= temp ghostcraft.temp
 execute if score dx ghostcraft.temp matches -1000..1000 run tag @s add item.grappling_hook.launch.zeroed
 scoreboard players operation dx ghostcraft.temp *= 0.83 ghostcraft.temp
@@ -45,7 +46,7 @@ execute unless entity @s[tag=item.grappling_hook.launch.zeroed] run scoreboard p
 tag @s remove item.grappling_hook.launch.negative
 tag @s remove item.grappling_hook.launch.zeroed
 
-execute store result score temp ghostcraft.temp run data get entity @s Pos[1] 1000
+execute store result score temp ghostcraft.temp run data get storage ghostcraft:data temp[1] 1000
 scoreboard players operation dy ghostcraft.temp -= temp ghostcraft.temp
 execute if score dy ghostcraft.temp matches -1000..1000 run tag @s add item.grappling_hook.launch.zeroed
 scoreboard players operation dy ghostcraft.temp *= 0.83 ghostcraft.temp
@@ -58,7 +59,7 @@ execute unless entity @s[tag=item.grappling_hook.launch.zeroed] run scoreboard p
 tag @s remove item.grappling_hook.launch.negative
 tag @s remove item.grappling_hook.launch.zeroed
 
-execute store result score temp ghostcraft.temp run data get entity @s Pos[2] 1000
+execute store result score temp ghostcraft.temp run data get storage ghostcraft:data temp[2] 1000
 scoreboard players operation dz ghostcraft.temp -= temp ghostcraft.temp
 execute if score dz ghostcraft.temp matches -1000..1000 run tag @s add item.grappling_hook.launch.zeroed
 scoreboard players operation dz ghostcraft.temp *= 0.83 ghostcraft.temp

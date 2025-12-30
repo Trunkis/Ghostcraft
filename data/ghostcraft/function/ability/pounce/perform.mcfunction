@@ -16,7 +16,7 @@ execute if score @s ghostcraft.ability.pounce.power matches 56.. run scoreboard 
 execute if entity @s[tag=ghostcraft.ability.pounce.charging] run function ghostcraft:ability/pounce/match_experience
 
 # Allow charging on the ground
-#execute if entity @s[nbt={OnGround:0b}] if score @s ghostcraft.ability.pounce.power matches 1.. run scoreboard players set @s ghostcraft.ability.pounce.power 0
+#execute unless predicate ghostcraft:on_ground if score @s ghostcraft.ability.pounce.power matches 1.. run scoreboard players set @s ghostcraft.ability.pounce.power 0
 
 execute unless predicate ghostcraft:ability/pounce/primed if score @s ghostcraft.ability.pounce.power matches 20.. run function ghostcraft:ability/pounce/activate
 

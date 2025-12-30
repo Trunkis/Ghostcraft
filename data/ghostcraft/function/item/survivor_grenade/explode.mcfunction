@@ -1,11 +1,8 @@
+tag @s add ghostcraft.item.survivor_grenade.thrower
 
+execute as @e[type=#ghostcraft:player,tag=!ghostcraft.item.survivor_grenade.immune] run function ghostcraft:item/survivor_grenade/explosion/team_check
 
-
-execute at @s as @e[type=#ghostcraft:player,tag=ghostcraft.ghost,tag=!ghostcraft.item.survivor_grenade.immune,distance=0..2.5] run damage @s 16 ghostcraft:survivor_grenade by @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.item.survivor_grenade.thrower]
-execute at @s as @e[type=#ghostcraft:player,tag=ghostcraft.ghost,tag=!ghostcraft.item.survivor_grenade.immune,distance=2.5..6] run damage @s 9 ghostcraft:survivor_grenade by @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.item.survivor_grenade.thrower]
-
-execute at @s as @e[type=#ghostcraft:player,tag=!ghostcraft.ghost,tag=!ghostcraft.item.survivor_grenade.immune,distance=0..2.5] run damage @s 5 ghostcraft:survivor_grenade by @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.item.survivor_grenade.thrower]
-execute at @s as @e[type=#ghostcraft:player,tag=!ghostcraft.ghost,tag=!ghostcraft.item.survivor_grenade.immune,distance=2.5..6] run damage @s 3 ghostcraft:survivor_grenade by @e[type=#ghostcraft:player,limit=1,tag=ghostcraft.item.survivor_grenade.thrower]
+tag @s remove ghostcraft.item.survivor_grenade.thrower
 
 playsound ghostcraft:explosion hostile @a ~ ~ ~ 3
 

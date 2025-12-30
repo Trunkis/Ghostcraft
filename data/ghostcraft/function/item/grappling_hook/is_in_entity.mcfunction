@@ -14,7 +14,7 @@ execute store result score dx ghostcraft.temp run data get entity @s Motion[0]
 execute store result score dy ghostcraft.temp run data get entity @s Motion[1]
 execute store result score dz ghostcraft.temp run data get entity @s Motion[2]
 
-execute if score dx ghostcraft.temp matches 0 if score dy ghostcraft.temp matches 0 if score dz ghostcraft.temp matches 0 if data entity @s {OnGround:0b} run tag @s add ghostcraft.item.grappling_hook.is_in_entity
+execute if score dx ghostcraft.temp matches 0 if score dy ghostcraft.temp matches 0 if score dz ghostcraft.temp matches 0 unless predicate ghostcraft:on_ground run tag @s add ghostcraft.item.grappling_hook.is_in_entity
 
 scoreboard players reset dx ghostcraft.temp
 scoreboard players reset dy ghostcraft.temp

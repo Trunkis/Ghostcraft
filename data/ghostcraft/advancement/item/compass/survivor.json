@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "ghostcraft.item.ghost_compass.used": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "ghostcraft": {
+                "type": "tracking_compass"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostcraft:item/compass/test/update"
+  }
+}

@@ -7,13 +7,16 @@
 #
 
 
+# Set
 advancement revoke @s only ghostcraft:item/grappling_hook/cast
 scoreboard players reset @s ghostcraft.item.grappling_hook.used
 
 data modify storage ghostcraft:data bobber_data set value {"type":"grappling_hook"}
-execute if items entity @s weapon.mainhand *[custom_data~{ghostcraft:{bobber_data:{}}}] run item modify entity @s weapon.mainhand ghostcraft:item/grappling_hook/clear_bobber_data
 
-execute unless predicate ghostcraft:item/grappling_hook/holding run return 0
+# Return if not holding grappling hook
+execute unless items entity @s weapon.mainhand *[custom_data~{ghostcraft:{type:grappling_hook}}] run return 0
+# Else
+item modify entity @s weapon.mainhand ghostcraft:item/grappling_hook/clear_bobber_data
 
 # Confirm there is a bobber untouched, to avoid any issues
 execute unless entity @e[type=fishing_bobber,tag=!ghostcraft.item.grappling_hook.accounted] run return 0

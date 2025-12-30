@@ -12,8 +12,7 @@
                 "entity": "this",
                 "scores": {
                   "ghostcraft.used_coas": {
-                    "min": 1,
-                    "max": 100000
+                    "min": 1
                   }
                 }
               }
@@ -25,6 +24,5 @@
   },
   "rewards": {
     "function": "ghostcraft:item/trigger/used_coas"
-  },
-  "sends_telemetry_event": false
+  }
 }

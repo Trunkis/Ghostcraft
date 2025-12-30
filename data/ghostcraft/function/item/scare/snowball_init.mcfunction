@@ -12,11 +12,11 @@ data modify entity @s NoGravity set value 1b
 summon item ~ ~ ~ {Item:{id:"snowball",count:1b},PickupDelay:10000,Tags:["ghostcraft.new", "ghostcraft.game.ghosthunt.item_ownership.compliance", "ghostcraft.game.ghosthunt.item_ownership.excepted", "ghostcraft.item.scare", "ghostcraft.item.ride_trigger", "ghostcraft.item.timer_receive", "ghostcraft.item.motion_receive", "ghostcraft.item.uuid"]}
 
 #Data
-function ghostcraft:item/global/throwable_data
+function ghostcraft:item/global/throwable/data
 
 #Mount
 ride @n[x=0,tag=ghostcraft.new] mount @s
-execute on vehicle run function ghostcraft:item/global/throwable_mount_set
+execute on passengers run function ghostcraft:item/global/throwable/mount_set
 
 ##Motion
 data modify storage ghostcraft:data temp set from entity @s Motion
@@ -34,4 +34,4 @@ scoreboard players set @s ghostcraft.timer 100
 scoreboard players set @s ghostcraft.timer_cycle 2
 scoreboard players set @s ghostcraft.timer_cycle_offset 1
 
-function ghostcraft:item/global/throwable_end
+function ghostcraft:item/global/throwable/end

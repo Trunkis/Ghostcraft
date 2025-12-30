@@ -1,4 +1,3 @@
-
 tag @s add ghostcraft.item.motion.parent
 
 execute as @e[tag=ghostcraft.item.motion_receive] if score @s ghostcraft.ride_id = @e[tag=ghostcraft.item.motion.parent,limit=1] ghostcraft.ride_id run tag @s add ghostcraft.item.motion.child

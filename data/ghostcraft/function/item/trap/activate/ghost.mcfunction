@@ -14,6 +14,5 @@ tag @s add ghostcraft.item.trap.stepped.current
 execute if entity @s[tag=ghostcraft.item.trap.stepped] run return 0
 
 tag @s add ghostcraft.item.trap.stepped
-
 function ghostcraft:item/trap/burst
 

@@ -1,2 +1,2 @@
 
-execute at @s run effect give @e[type=#ghostcraft:player,tag=ghostcraft.ghost,distance=..5] glowing 3 0 true
+effect give @e[type=#ghostcraft:player,tag=ghostcraft.ghost,distance=..5] glowing 3 0 true

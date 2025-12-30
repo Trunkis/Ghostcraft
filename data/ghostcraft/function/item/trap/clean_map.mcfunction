@@ -7,5 +7,5 @@
 #
 
 
-kill @e[tag=ghostcraft.item.trap]
+kill @e[type=marker,tag=ghostcraft.item.trap]
 

@@ -1,2 +1,1 @@
-
-execute if predicate ghostcraft:item/boost/used if score @s ghostcraft.ghost.boost.cooldown matches ..0 at @s run function ghostcraft:item/boost/used
+execute if items entity @s weapon.mainhand *[custom_data~{ghostcraft:{type:ghost_boost}}] unless score @s ghostcraft.ghost.boost.cooldown matches 1.. at @s run function ghostcraft:item/boost/used

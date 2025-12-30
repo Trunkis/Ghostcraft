@@ -1,2 +1,2 @@
-
-execute if predicate ghostcraft:item/flashbang/is_flashbang at @s run function ghostcraft:item/flashbang/snowball_init
+function ghostcraft:item/global/store_item
+execute if items block 0 0 0 container.0 *[custom_data~{ghostcraft:{type:flashbang}}] at @s run function ghostcraft:item/flashbang/snowball_init

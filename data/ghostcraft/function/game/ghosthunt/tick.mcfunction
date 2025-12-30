@@ -11,8 +11,12 @@
 execute as @a at @s run function #ghostcraft:ability/tick
 
 # Update the score
-bossbar set ghostcraft.game.time players @a
-execute store result bossbar ghostcraft.game.time value run scoreboard players get game_timer ghostcraft.temp
+execute store result score #Survivors ghostcraft.temp if entity @a[tag=ghostcraft.survivor]
+execute store result score #Ghosts ghostcraft.temp if entity @a[tag=ghostcraft.ghost]
+
+bossbar set ghostcraft:game.time players @a
+execute store result bossbar ghostcraft:game.time value run scoreboard players get game_timer ghostcraft.temp
+bossbar set ghostcraft:game.time name ["",[{text:"⚔ ",color:blue},{score:{name:"#Survivors",objective:ghostcraft.temp}}," "],"",["[ Round Time: ",{score:{name:"game_timer",objective:ghostcraft.temp}},"t ]"],[{text:" ",color:red},{score:{name:"#Ghosts",objective:ghostcraft.temp}},{text:" 👻"}]]
 
 # Check that the game hasn't ended yet
 function ghostcraft:game/ghosthunt/mid_game_player_check

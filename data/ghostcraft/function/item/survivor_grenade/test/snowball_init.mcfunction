@@ -1,2 +1,2 @@
-
-execute if predicate ghostcraft:item/survivor_grenade/is_survivor_grenade at @s run function ghostcraft:item/survivor_grenade/snowball_init
+function ghostcraft:item/global/store_item
+execute if items block 0 0 0 container.0 *[custom_data~{ghostcraft:{type:survivor_grenade}}] at @s run function ghostcraft:item/survivor_grenade/snowball_init

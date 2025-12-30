@@ -7,9 +7,7 @@
 #
 
 
-execute as @e[type=fishing_bobber] at @s if function ghostcraft:item/grappling_hook/is_in_entity run kill @s
-
-execute as @e[type=fishing_bobber,tag=ghostcraft.item.grappling_hook.bobber] at @s run function ghostcraft:item/grappling_hook/save_bobber_data
+execute as @e[type=fishing_bobber] at @s run function ghostcraft:item/grappling_hook/entity_check
 
 execute as @a[tag=ghostcraft.item.grappling_hook.casting] run function ghostcraft:item/grappling_hook/check_hook
 

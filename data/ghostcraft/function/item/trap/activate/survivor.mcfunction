@@ -14,6 +14,5 @@ tag @s add ghostcraft.item.trap.stepped.current
 execute if entity @s[tag=ghostcraft.item.trap.stepped] run return 0
 
 tag @s add ghostcraft.item.trap.stepped
-
-execute as @e[type=marker,tag=ghostcraft.item.trap,distance=..1,limit=1,sort=nearest] run function ghostcraft:item/trap/visible_mark
+execute as @n[type=marker,tag=ghostcraft.item.trap,distance=..1] run function ghostcraft:item/trap/visible_mark
 

@@ -23,9 +23,10 @@ tag @s remove ghostcraft.trap.trapper
 function ghostcraft:item/get_data
 execute store result score hand_damage ghostcraft.temp run data get storage ghostcraft:data temp."minecraft:damage"
 execute store result score max_damage ghostcraft.temp run data get storage ghostcraft:data temp."minecraft:max_damage"
-#Check
-scoreboard players add hand_damage ghostcraft.temp 1
-execute if score max_damage ghostcraft.temp <= hand_damage ghostcraft.temp run return run item replace entity @s weapon.mainhand with air
 
-## Change damage
-item modify entity @s weapon.mainhand {function:set_damage,damage:{type:"score",score:"ghostcraft.temp",target:{type:"fixed",name:"hand_damage"}}}
+##Check
+execute if score max_damage ghostcraft.temp <= hand_damage ghostcraft.temp run return run item replace entity @s weapon.mainhand with air
+#Break
+execute store result block 0 0 0 Items[0].components."minecraft:damage" int 1 run scoreboard players add hand_damage ghostcraft.temp 1
+#Else
+item replace entity @s weapon.mainhand from block 0 0 0 container.0

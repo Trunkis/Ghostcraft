@@ -8,5 +8,5 @@
 
 
 particle end_rod ~ ~ ~ 0 0.2 0 0 2 force
-playsound block.piston.contract block @a[distance=..20] ~ ~ ~ 1.5 0.1
+playsound block.piston.contract block @a ~ ~ ~ 1.5 0.1
 

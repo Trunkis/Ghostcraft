@@ -3,7 +3,7 @@
   "generator": {
     "type": "noise",
     "settings": {
-      "name": "",
+      "name": "ghostcraft:empty",
       "sea_level": 0,
       "disable_mob_generation": false,
       "aquifers_enabled": false,

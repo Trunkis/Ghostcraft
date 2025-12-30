@@ -1,7 +1,6 @@
-
 # Check energy requirements first
 scoreboard players operation required_energy ghostcraft.ability.ghost_energy = item.stab.energy_requirement ghostcraft.config
-execute unless function ghostcraft:ability/ghost_energy/has_enough_energy run return run function ghostcraft:item/stab/not_enough_energy
+execute unless function ghostcraft:ability/ghost_energy/has_enough_energy run return run title @s actionbar "You do not have enough energy to stab."
 
 scoreboard players operation @s ghostcraft.ability.ghost_energy -= item.stab.energy_requirement ghostcraft.config
 
